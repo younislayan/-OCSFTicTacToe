@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="15.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="il.cshaifasweng.OCSFMediatorExample.client.GameController">
+   <children>
+      <Label text="Tic-Tac-Toe" style="-fx-font-size: 24px; -fx-font-weight: bold;" />
+      <Label fx:id="symbolLabel" text="" style="-fx-font-size: 16px; -fx-font-weight: bold;" />
+      <Label fx:id="statusLabel" text="" style="-fx-font-size: 16px;" />
+      <GridPane alignment="CENTER" hgap="6" vgap="6">
+         <Button fx:id="btn0" onAction="#onCellClick" text="" style="-fx-min-width: 110; -fx-min-height: 110; -fx-font-size: 36px; -fx-font-weight: bold;" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+         <Button fx:id="btn1" onAction="#onCellClick" text="" style="-fx-min-width: 110; -fx-min-height: 110; -fx-font-size: 36px; -fx-font-weight: bold;" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+         <Button fx:id="btn2" onAction="#onCellClick" text="" style="-fx-min-width: 110; -fx-min-height: 110; -fx-font-size: 36px; -fx-font-weight: bold;" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+         <Button fx:id="btn3" onAction="#onCellClick" text="" style="-fx-min-width: 110; -fx-min-height: 110; -fx-font-size: 36px; -fx-font-weight: bold;" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+         <Button fx:id="btn4" onAction="#onCellClick" text="" style="-fx-min-width: 110; -fx-min-height: 110; -fx-font-size: 36px; -fx-font-weight: bold;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+         <Button fx:id="btn5" onAction="#onCellClick" text="" style="-fx-min-width: 110; -fx-min-height: 110; -fx-font-size: 36px; -fx-font-weight: bold;" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+         <Button fx:id="btn6" onAction="#onCellClick" text="" style="-fx-min-width: 110; -fx-min-height: 110; -fx-font-size: 36px; -fx-font-weight: bold;" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+         <Button fx:id="btn7" onAction="#onCellClick" text="" style="-fx-min-width: 110; -fx-min-height: 110; -fx-font-size: 36px; -fx-font-weight: bold;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+         <Button fx:id="btn8" onAction="#onCellClick" text="" style="-fx-min-width: 110; -fx-min-height: 110; -fx-font-size: 36px; -fx-font-weight: bold;" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      </GridPane>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
